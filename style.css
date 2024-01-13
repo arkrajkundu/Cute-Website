@@ -78,7 +78,7 @@ img {
   background-color: rgb(166, 208, 222);
 }
 
-.buttons button:active, .after:active {
+.yes-btn:active, .after:active {
   background-color: rgb(184, 232, 248);
 }
 
