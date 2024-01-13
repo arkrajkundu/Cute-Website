@@ -15,7 +15,7 @@ yesBtn.addEventListener("click", () => {
 });
 
 const texts = [];
-texts.push("Boo I'm yours already", "Aww babe I'm yours shh", "I'm yours already dummy", "Bad girl I'm yours already", "Muahhh I'm yours", "Yes I'm only yours", "Onlyyyy yours", "I love you <3");
+texts.push("Boo I'm yours already", "Aww babe I'm yours shh", "I'm yours already dummy", "Aw I'm yours already", "Muahhh I'm yours", "Yes I'm only yours", "Onlyyyy yours", "I love you <3");
 
 function cuteTexts() {
   const random = Math.floor(Math.random() * texts.length);
