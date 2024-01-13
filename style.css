@@ -78,6 +78,9 @@ img {
 }
 
 @media screen and (max-width: 275px) {
+  *{
+    cursor: default;
+  }
   h2{
     font-size: 12px;
   }
