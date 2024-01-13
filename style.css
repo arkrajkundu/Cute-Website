@@ -74,7 +74,7 @@ img {
   translate: -50%;
 }
 
-.buttons button:hover, .after:hover{
+.yes-btn:hover, .after:hover{
   background-color: rgb(166, 208, 222);
 }
 
