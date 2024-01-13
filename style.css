@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightpink;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+*::selection {
+  background: lightblue;
+  color: #fff;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-family: 'Love Ya Like A Sister';
+  cursor: default;
+}
+
+/* .image{
+  height: 300px;
+  width: 300px;
+  background-image: url(images/heart-cat.png);
+  background-size: cover;
+  margin-bottom: 15px;
+} */
+
+img {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.buttons button,
+.after {
+  border: none;
+  font-family: 'Love Ya Like A Sister';
+  font-size: 18px;
+  padding: 8px 25px;
+  border-radius: 20px;
+  background-color: lightblue;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.no-btn {
+  position: absolute;
+}
+
+.yes-btn,
+.no-btn {
+  translate: -50%;
+}
+
+.buttons button:hover, .after:hover{
+  background-color: rgb(166, 208, 222);
+}
+
+.buttons button:active, .after:active {
+  background-color: rgb(184, 232, 248);
+}
+
+.after{
+  visibility: hidden;
+}
+
+@media screen and (max-width: 275px) {
+  h2{
+    font-size: 12px;
+  }
+  img{
+    width: 75vw;
+    margin-bottom: 0;
+  }
+  button{
+    transform: scale(75%);
+    margin-top: 0;
+  }
+}
